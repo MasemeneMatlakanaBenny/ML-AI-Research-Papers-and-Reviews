@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Illusion Of Thinking - Review by Matlakana Benny</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #ffcc00;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            margin-top: 30px;
+            border-bottom: 2px solid #ffcc00;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            margin-top: 20px;
+            color: #00ccff;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>The Illusion Of Thinking Research Paper Review by Matlakana Benny</h1>
+
+    <h2>Introduction</h2>
+    <p>The Illusion Of Thinking is a research paper which was released by Apple under which the work was completed by student interns. Throughout the paper, Apple researchers are investigating reasoning behind Large Language Models. The aim of the paper is to verify if reasoning has been achieved in Large Language Models. Moreover these models that are used to perform the experiment of reasoning are given different tasks to perform.</p>
+
+    <h2>What is Reasoning?</h2>
+    <p>The big question is do we reasoning in models? Wait before that, what is actually reasoning. Reasoning in science specifically is proving statements with the existing science. It can simply be used to develop new science on the existing science. Hence it can be concluded that reasoning is proven logic in simpler terms. Back to LLMS, reasoning might still be an illusion because these models still suffer from hallucinations. Basically that's reasoning.</p>
+
+    <p>The question still remains, do we have reasoning in LLMs? Can LLMs develop new science on top of the new existing science. For LLMs to achieve reasoning, the big factor has to be hallucinations. Given that these models don't suffer from hallucinations, it can be trusted enough that they are ready to reason and come up with new science.</p>
+
+    <h2>Where does this paper come in right now?</h2>
+    <p>Models were given a task to work on puzzles that can simply be solved using Data Structures and Algorithms yet they failed. The Tower Of Hanoi, River Crossing and Blocks World requires a great understanding of Data Structures and Algorithms. Yet it's surprising that models trained on huge amount of data based on Data Structures couldn't apply such algorithms to solve problems at hand.</p>
+
+    <p>Can we expect new science if such models fail on such tasks that are not at PhD - Level?</p>
+
+    <h2>Where does this paper go?</h2>
+    <p>The Apple Scientists were proving that LLMs cannot reason hence Apple is not investing in LLMs at the moment. If LLMs cannot reason, how do we expect new science? New science must be proven through several statements and reasons. In Mathematics especially Geometry, you have to give reasons as to why you came up with an answer. It brings us to one thing - is AGI /ASI here soon? Thinking about it, the existence of reasoning models means we have models that can think independently and develop new science.</p>
+
+    <p>So we don't have the new generated proven science from LLMs that can be used to solve existing problems. Hence it was called  The Illusion Of Thinking.</p>
+
+    <h2>Conclusion</h2>
+    <p>This paper challenges a lot of things in my opinion. It challenges the limitation of the science we have scientifically and politically,economically and socially and here is how :</p>
+
+    <ul>
+        <li><strong>Scientifically</strong> - we need more researchers to handle the issue of reasoning if we are to achieve AGI</li>
+        <li><strong>Politically</strong> - improving reasoning in AI models can be an improvement towards AGI. It indicates the development of agents that can think independently and improve on their own over time. However whom ever achieves AGI will close source the science behind it. Government can use the same developed science to win wars and reduce crime.</li>
+        <li><strong>Economically</strong> - obviously it means more money. Such tools can be used to educate individuals in how to generate income without having to worry about access to resources. Cut costs for employers in certain industries.</li>
+        <li><strong>Socially</strong> - such science can think much better in situations and lead individuals whom rely on it mainly to better decisions. However not recommended.</li>
+    </ul>
+
+    <p>It is one of the best papers to be released in 2025. On the other hand, it can viewed as an excuse as to why Apple didn't open source their AI science 10 years ago or simply explaining their late booming in AI. One of my biggest Ifs in tech is what if Apple Open-sourced Siri and moved beyond it in terms of AI and ML?</p>
+
+    <p>You think about it and realize that it challenges a lot of things in AI. However the current AI we have is still useful in terms of task performance. It is just a matter of when and how it will be scaled to improve it? Reasoning might be solved anytime soon. No problems last forever.</p>
+
+</body>
+</html>
