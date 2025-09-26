@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>A Survey on LLMs Hallucinations - Review/Summary</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #000000, #1a1a1a, #0f0f0f);
+      color: #e0e0e0;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.7;
+    }
+    h1, h2, h3 {
+      color: #ff6f61;
+      text-transform: uppercase;
+      margin-top: 30px;
+    }
+    a {
+      color: #00e6ff;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: rgba(25, 25, 25, 0.9);
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0px 0px 20px rgba(255, 111, 97, 0.5);
+    }
+    .chart-container {
+      background: #1c1c1c;
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 30px;
+      box-shadow: 0px 0px 15px rgba(0, 230, 255, 0.4);
+    }
+    canvas {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>A survey on LLMs Hallucinations Research Paper Review/Summary</h1>
+    <p>
+      Link - <a href="https://arxiv.org/pdf/2309.05922" target="_blank">https://arxiv.org/pdf/2309.05922</a>
+    </p>
+
+    <h2>What are Hallucinations?</h2>
+    <p>
+      Hallucinations is a phenomenon experienced when generative models generate information that does not align with reality or the real world.
+      AS such this problem occurs in models that have been trained on large amounts of data. These models can often be referred to as foundation
+      models and are often classified into four categories ,that is ,text ,image, video and audio large foundation models. Yes large foundation models since
+      the large simply implies that the models were trained on large amount of data collected across different resources and domains.
+    </p>
+    <p>
+      As such the aim of the paper is to identify and highlight hallucinations as well as coming up with solutions to reduce them. It is discussed in the paper
+      that hallucinations can be a result of the model's inability to generalize in real-time. Another factor which is added is the bias during pre-training as
+      lower bias means a model that is able to generate correct information or information with low errors expected in it. However these models are trained to predict
+      as they are classified as autoregressive models in a set of foundation models. Hence generated content or information is expected from the model to the user.
+    </p>
+
+    <h2>Some summary based on research papers for hallucinations in foundation models:</h2>
+    <p>
+      Total Number Of Research Papers - 24<br>
+      Text/Large Language Models - 17<br>
+      Video Models - 4<br>
+      Audio Models - 2<br>
+      Image Models - 1
+    </p>
+
+    <div class="chart-container">
+      <canvas id="papersChart"></canvas>
+    </div>
+
+    <h2>Metrics that can be used to evaluate and detect Hallucinations:</h2>
+    <p>
+      LLMs (Large Language Models):<br>
+      - SelfCheckGPT - detect hallucinations in LLMs<br>
+      - HaluEval - benchmark for evaluating hallucinations<br>
+      - PURR - used to correct hallucinations
+    </p>
+
+    <h2>Experiment Summary:</h2>
+    <p>
+      Video and Audio Models - no hallucinations detected
+    </p>
+
+    <h2>Going forward:</h2>
+    <p>
+      - Develop metrics used to evaluate hallucinations<br>
+      - Develop testing methods to test for hallucinations<br>
+      - Focus on bias detection
+    </p>
+  </div>
+
+  <script>
+    const ctx = document.getElementById('papersChart').getContext('2d');
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Text/LLMs', 'Video Models', 'Audio Models', 'Image Models'],
+        datasets: [{
+          label: 'Number of Research Papers',
+          data: [17, 4, 2, 1],
+          backgroundColor: ['#ff6f61', '#00e6ff', '#ffd700', '#9b59b6']
+        }]
+      },
+      options: {
+        plugins: {
+          title: {
+            display: true,
+            text: 'Research Papers by Model Type',
+            color: '#ffffff',
+            font: { size: 18 }
+          },
+          legend: { labels: { color: '#ffffff' } }
+        },
+        scales: {
+          x: {
+            ticks: { color: '#ffffff' },
+            title: { display: true, text: 'Model Type', color: '#ffffff' }
+          },
+          y: {
+            ticks: { color: '#ffffff' },
+            title: { display: true, text: 'Number of Papers', color: '#ffffff' }
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
